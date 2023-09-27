@@ -1,0 +1,62 @@
+.box1{
+    height: 100px;
+    width:100px;
+    background-color: green;
+    margin-bottom: 10px;
+    opacity: 0.5;
+
+}
+.box2{
+    
+        height: 100px;
+        width:100px;
+        background-color: green;
+       opacity: 1;
+    
+   
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: black;
+}
+/*li{
+    float:left;
+}*/
+.main{
+    margin-left: 26%;
+}
+li a{
+    display:block;
+    padding:15px 10px;
+    text-decoration: none;
+    color:white;
+}
+.active{
+    background-color: blue;
+}
+li a:hover:not(active){
+    background-color: skyblue;
+}
+#about{
+    background-color: aqua;
+}
+#news{
+    background-color: pink;
+}
+#contact{
+    background-color: rgb(41, 190, 141);
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    background-color: rgb(3, 117, 79);
+}
